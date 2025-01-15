@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'main_page/presentation/main_page_screen/ui/main_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,8 +17,7 @@ class MyApp extends StatelessWidget {
       //   colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       //   useMaterial3: true,
       // ),
-      home: Text('Flutter Demo Home Page'),
+      home: MainPage(),
     );
   }
 }
-
