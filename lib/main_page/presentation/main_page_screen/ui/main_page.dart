@@ -13,7 +13,7 @@ class MainPage extends StatelessWidget {
       backgroundColor: CustomTheme.backgroundColor,
       floatingActionButton: FloatingActionButton(
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(10 0),
+          borderRadius: BorderRadius.circular(10.0),
         ),
         backgroundColor: CustomTheme.secondaryColor,
         onPressed: () {},
