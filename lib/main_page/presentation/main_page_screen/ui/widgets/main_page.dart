@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:x_clone/home_page/presentation/home_page_screen/ui/home_page.dart';
 import 'package:x_clone/theme.dart';
 
 import '../../logic/main_page_view_model.dart';
@@ -12,6 +13,12 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: CustomTheme.twitterBlack,
+      body: PageView(
+        controller: _viewModel.pageController,
+        children: [
+          HomePage(),
+        ],
+      ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: CustomTheme.twitterBlack,
         fixedColor: CustomTheme.twitterBlack,

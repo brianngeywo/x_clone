@@ -12,6 +12,8 @@ class MainPageViewModel {
     return _instance!;
   }
 
+  PageController pageController = PageController();
+
   List<BottomNavigationBarItem> bottomNavigationBarItems = [
     // home
     bottomNavigationBarItemWidget(Assets.svgHomeIcon),
