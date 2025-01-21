@@ -7,8 +7,8 @@ class CustomTheme {
   static const String whiteColor = '#ffffff';
   static const String blueColor = '#1d9bf0';
 
-  static Color backgroundColor = HexColor(blackColor);
-  static Color primaryColor = HexColor(whiteColor);
-  static Color accentColor = HexColor(greyColor);
-  static Color secondaryColor = HexColor(blueColor);
+  static Color twitterBlack = HexColor(blackColor);
+  static Color twitterWhite = HexColor(whiteColor);
+  static Color twitterGrey = HexColor(greyColor);
+  static Color twitterBlue = HexColor(blueColor);
 }

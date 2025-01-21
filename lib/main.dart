@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'main_page/presentation/main_page_screen/ui/main_page.dart';
+import 'package:x_clone/main_page/presentation/main_page_screen/ui/widgets/main_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,10 +12,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'X Clone',
-      // theme: ThemeData(
-      //   colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-      //   useMaterial3: true,
-      // ),
       home: MainPage(),
     );
   }
