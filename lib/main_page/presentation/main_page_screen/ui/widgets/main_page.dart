@@ -21,6 +21,7 @@ class MainPage extends StatelessWidget {
         elevation: 0,
         currentIndex: _viewModel.getCurrentItemIndex,
         items: _viewModel.bottomNavigationBarItems,
+        iconSize: 30,
         onTap: (int index) {
           _viewModel.setCurrentIndex = index;
         },
